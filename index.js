@@ -5,7 +5,7 @@ const config = require('config')
 console.log(config);
 
 app.get('/', (req, res) => {
-  res.send('Hello Jenkins World!')
+  res.send('Check PipeLine')
 })
 
 app.get('/status', (req, res) => {
